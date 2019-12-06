@@ -25,7 +25,7 @@ void main(){
 				printf("Thread no executing section 2 %d\n",omp_get_thread_num());
 				for (x=0;x<10000;x++)
 				{
-					d[x] = a[x]+b[x];
+					d[x] = a[x]*b[x];
 				}
 			}
 		}
